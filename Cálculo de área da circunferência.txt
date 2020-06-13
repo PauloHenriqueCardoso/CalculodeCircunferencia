@@ -1,0 +1,18 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+int main(void)
+{
+    float formula; 
+    double area;
+    float pi = 3.14 ;
+    float r;
+    
+    printf ("Digite o raio:  ");
+    scanf ("%f", &r);
+    printf ("O valor da area da circunferencia e de %.2f", pi * pow(r,2)); 
+    
+    
+
+    return 0;
+}
